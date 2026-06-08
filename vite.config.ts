@@ -8,6 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: '/react-forms/',
   test: {
     globals: true,
     environment: 'jsdom', 
